@@ -1,0 +1,7 @@
+<div>
+  <form #customerForm="ngForm" (ngSubmit)="onSubmit()">
+    <label>Type a number</label>
+    <input type="number" [ngModel]="alticci.numberOfSequence" placeholder="number" />
+    <button type="submit">Send</button>
+  </form>
+</div>
